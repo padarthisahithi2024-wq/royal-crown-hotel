@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Royal Crown Hotel</title>
+
+    <meta name="description"
+        content="Contact Royal Crown Hotel and make your reservation today.">
+
+    <meta name="keywords"
+        content="hotel booking, hotel reservation, luxury hotel contact">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <h2>Royal Crown Hotel</h2>
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="rooms.html">Rooms</a></li>
+
+            <li><a href="services.html">Services</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Page Banner -->
+
+    <section class="page-banner">
+
+        <h1>Contact & Reservation</h1>
+
+        <p>
+            Book your stay and experience luxury hospitality.
+        </p>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact-section">
+
+        <!-- Contact Information -->
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                <strong>Hotel:</strong>
+                Royal Crown Hotel
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                +91 9876543210
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                info@royalcrownhotel.com
+            </p>
+
+            <p>
+                <strong>Address:</strong>
+                Nellore, Andhra Pradesh, India
+            </p>
+
+            <p>
+
+                Our team is available 24/7 to assist
+                with reservations and guest inquiries.
+
+            </p>
+
+        </div>
+
+        <!-- Reservation Form -->
+
+        <div class="booking-form">
+
+            <h2>Reserve Your Room</h2>
+
+            <form onsubmit="return validateForm()">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Your Email"
+                    required>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter Your Phone Number"
+                    required>
+
+                <label>
+                    Select Room Type
+                </label>
+
+                <select
+                    id="room"
+                    required>
+
+                    <option value="">
+                        Choose Room
+                    </option>
+
+                    <option>
+                        Deluxe Room
+                    </option>
+
+                    <option>
+                        Luxury Room
+                    </option>
+
+                    <option>
+                        Executive Suite
+                    </option>
+
+                </select>
+
+                <label>
+                    Check-In Date
+                </label>
+
+                <input
+                    type="date"
+                    id="checkin"
+                    required>
+
+                <label>
+                    Check-Out Date
+                </label>
+
+                <input
+                    type="date"
+                    id="checkout"
+                    required>
+
+                <textarea
+                    rows="5"
+                    placeholder="Special Requests (Optional)">
+                </textarea>
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Submit Reservation
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Royal Crown Hotel</h3>
+
+        <p>
+            Luxury • Comfort • Hospitality
+        </p>
+
+        <p>
+            Email: info@royalcrownhotel.com
+        </p>
+
+        <p>
+            Phone: +91 9876543210
+        </p>
+
+        <p>
+            © 2026 Royal Crown Hotel.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
